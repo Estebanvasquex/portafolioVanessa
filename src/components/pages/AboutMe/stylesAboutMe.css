@@ -1,0 +1,36 @@
+.tituloAbout{
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    
+   
+
+}
+
+.parrafoAbout{
+
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    
+
+}
+
+.imgPerfil{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 7px solid white;
+ /*   clip-path: inset(5% 0 15% 23%); */
+
+   
+
+
+
+  
+}
+.continerImg{
+
+}

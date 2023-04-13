@@ -8,9 +8,19 @@ import SkillsContainer from "./components/pages/Skills/SkillsContainer";
 import CatalogueContainer from "./components/pages/Catalogue/CatalogueContainer";
 import ContactContainer from "./components/pages/Contact/ContactContainer";
 import ExperienceContainer from "./components/pages/Experience/ExperienceContainer";
+import { Container } from "@mui/material";
 function App() {
   return (
-    <BrowserRouter>
+
+   
+
+   
+
+    
+
+   <Container sx={{backgroundColor: "#f0efe0"}} >
+
+  <BrowserRouter >
       <ContextDentistsProvider>
         <Routes>
           <Route element={<NavBarLayoutContainer/>}>
@@ -25,7 +35,9 @@ function App() {
           <Route path="*" element={<h1>NOT FOUND</h1>} />
         </Routes>
       </ContextDentistsProvider>
-    </BrowserRouter>
+    </BrowserRouter> 
+    
+    </Container>
   );
 }
 
