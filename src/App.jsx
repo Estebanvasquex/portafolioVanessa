@@ -9,6 +9,7 @@ import CatalogueContainer from "./components/pages/Catalogue/CatalogueContainer"
 import ContactContainer from "./components/pages/Contact/ContactContainer";
 import ExperienceContainer from "./components/pages/Experience/ExperienceContainer";
 import { Container } from "@mui/material";
+import NavCatalogueContainer from "./components/layout/navCatalogue/navCatalogueContainer";
 function App() {
   return (
 
@@ -28,7 +29,10 @@ function App() {
             <Route path="/aboutMe" element={<AboutMeContainer/>} />
             <Route path="/experience" element={<ExperienceContainer/>} />
             <Route path="/skills" element={<SkillsContainer/>} />
-            <Route path="/catalogue" element={<CatalogueContainer />} />
+            <Route element={<NavCatalogueContainer/>}>
+              <Route path="/catalogue" element={<CatalogueContainer />} />
+            </Route>
+            
             <Route path="/contact" element={<ContactContainer />} />
             <Route path="/dentist/:id" element={"Detalle diseños"} />
           </Route>

@@ -23,7 +23,7 @@ const Catalogue = () => {
         gap: "20px",
       }}
     >
-      <Grid container spacing={2}>
+      <Grid container spacing={2} sx={{marginTop: "35px"}}>
         {catalogue.map((item) => {
           return (
             <Grid item xs={12} sm={4} md={3} key={item.id}>
