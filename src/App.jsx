@@ -10,14 +10,10 @@ import ContactContainer from "./components/pages/Contact/ContactContainer";
 import ExperienceContainer from "./components/pages/Experience/ExperienceContainer";
 import { Container } from "@mui/material";
 import NavCatalogueContainer from "./components/layout/navCatalogue/navCatalogueContainer";
+
 function App() {
   return (
 
-   
-
-   
-
-    
 
    <Container sx={{backgroundColor: "#f0efe0"}} >
 
